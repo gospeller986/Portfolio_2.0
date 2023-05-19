@@ -46,7 +46,7 @@ const Navbar = () => {
 
     }} >
          <div style={{ background : colorChange ? '#0d1116' : '*'  }} className='shadow-md w-full fixed top-0 left-0 mb-10px scroll-smooth'>
-      <div className='md:flex items-center justify-between bg-transparent py-4 md:px-10 px-7 bg-black md:bg-[*]'>
+      <div className='md:flex items-center justify-between bg-transparent py-4 md:px-10 px-7 bg-[#0d1116] md:bg-[*]'>
       <div className='font-bold text-2xl cursor-pointer flex items-center  
       text-gray-800'>
         <span className='text-3xl text-white mr-1 pt-2 font-oswald '>
@@ -55,7 +55,7 @@ const Navbar = () => {
         
       </div>
       
-      <div onClick={()=>setOpen(!open)} className='text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden bg-black '>
+      <div onClick={()=>setOpen(!open)} className='text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden bg-[#0d1116] '>
       <h2>☰</h2>
       </div>
 
@@ -63,8 +63,8 @@ const Navbar = () => {
         { 
         
           Links.map((link)=>(
-            <li key={link.name} className='ml-0 md:ml-8 text-xl md:my-0  bg-black md:bg-black py-10  md:py-0 z-40 text-center'>
-              <a href={link.link} className='text-white font-bold hover:text-gray-400 duration-500 bg-black md:bg-black z-40'>{link.name}</a>
+            <li key={link.name} className='ml-0 md:ml-8 text-xl md:my-0  bg-[#0d1116] md:bg-[*]  py-10  md:py-0 z-40 text-center'>
+              <a href={link.link} className='text-white font-bold hover:text-gray-400 duration-500 bg-[#0d1116] md:bg-[*] z-40'>{link.name}</a>
             </li>
           ))
          
