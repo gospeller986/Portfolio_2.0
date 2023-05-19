@@ -48,9 +48,9 @@ const Skills = () => {
             />
           </Player>
         </div>
-        <div className=" justify-center items-center pl-10">
+        {/* <div className=" justify-center items-center pl-10">
           <TextShpere />
-        </div>
+        </div> */}
 
         </div>
 

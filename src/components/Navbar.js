@@ -45,7 +45,7 @@ const Navbar = () => {
 
 
     }} >
-         <div style={{ background : colorChange ? '#0d1116' : '*'  }} className='shadow-md w-full fixed top-0 left-0 mb-10px scroll-smooth'>
+         <div style={{ background : '#0d1116' }} className='shadow-md w-full fixed top-0 left-0 mb-10px scroll-smooth'>
       <div className='md:flex items-center justify-between bg-transparent py-4 md:px-10 px-7 bg-[#0d1116] md:bg-[*]'>
       <div className='font-bold text-2xl cursor-pointer flex items-center  
       text-gray-800'>

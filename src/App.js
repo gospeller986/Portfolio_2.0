@@ -23,7 +23,7 @@ function App() {
         <Navbar />
         <div
           class="main"
-          className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-1 mt-10 pt-10 md:mx-0 md:my-0 md:mt-20 p-10  sm:mt-20 "
+          className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-1 mt-40 pt-10 md:mx-0 md:my-0 md:mt-20 p-10  sm:mt-20 "
         >
           <div className=" font-bold  md:w-1/3 max-w-sm">
             <h1 className="text-white font-oswald text-4xl ">
